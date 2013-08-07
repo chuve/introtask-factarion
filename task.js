@@ -2,10 +2,10 @@ var max_call_i = 300, //max value call counter
     fcash = []; //cash factorials;
 
 for (var i = 0; i <= 9; i++) {
-    fcash.push(factorial(i)); //add to hash factarial of numbers from 0 till 9;
+    fcash.push(factorial(i)); //add to hash factorial of numbers from 0 till 9;
 }
 
-function factorial(n) { //take factarial
+function factorial(n) { //take factorial
     return n ? n * factorial(n - 1) : 1;
 }
 
